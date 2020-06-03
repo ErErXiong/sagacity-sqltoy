@@ -13,8 +13,8 @@ import javax.persistence.Table;
  * @author zhong
  *
  */
-@Entity
-@Table(name = "", schema = "")
+@Entity(name = "")
+@Table(name = "SYS_STAFF_INFO", schema = "")
 public class StaffInfoVO implements Serializable {
 
 	/**
